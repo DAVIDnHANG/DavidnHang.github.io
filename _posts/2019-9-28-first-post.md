@@ -1,6 +1,6 @@
 ---
 layout: 9/28/2019 post
-title: First profile project should be?
+title: 1st project
 image: /img/ds.PNG.jpeg
 ---
 
