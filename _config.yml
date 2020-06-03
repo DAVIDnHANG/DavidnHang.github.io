@@ -21,9 +21,9 @@ description: A virtual proof that I'm awesome
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  #Resources:
+    #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    #- Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "https://davidnhang.github.io/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -67,11 +67,11 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+#  rss: true
   email: "Davidnhang@gmail.com"
-  github:
+  github: https://github.com/DAVIDnHANG
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: linkedin.com/in/david-hang-05a5334a
 #  xing: david
 #  stackoverflow:
 #  snapchat:
@@ -126,14 +126,14 @@ url-pretty: "MyWebsite.com"  # eg. "https://davidnhang.github.io/"
 
 # To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository : https://github.com/DAVIDnHANG # GitHub username/repository eg. "daattali/beautiful-jekyll"
   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+#  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+#    siteKey  : # Use your own site key, you need to apply for one on Google
+#    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
