@@ -4,7 +4,7 @@
 title: DavidnHang 
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+#description:
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -91,7 +91,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "https://davidnhang.github.io/"
+url-pretty: "https://davidnhang.github.io/"  # eg. "https://davidnhang.github.io/"
 
 # --- Web Statistics Section --- #
 
