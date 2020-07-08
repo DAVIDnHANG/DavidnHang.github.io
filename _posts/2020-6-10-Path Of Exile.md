@@ -21,3 +21,5 @@ Visual Input
    * to find the matrix of A, use several object of fixed size in the game. Then
  2. Manually, on a 800x600 resolution, approximate corner of the screen with a point and labeled with the corresponding world point
  
+Conclusion: 
+  These are the changes needed to create the AI that play games.

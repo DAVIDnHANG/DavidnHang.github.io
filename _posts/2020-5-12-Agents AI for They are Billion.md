@@ -50,4 +50,5 @@ d. reinforcement learning
       * long short term memory system
       * recurrent pointer network
       
-      
+Conclusion:
+  I believe these are the agents needed to play a real time strategy game.
