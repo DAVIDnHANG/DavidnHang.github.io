@@ -4,7 +4,7 @@ title: Path Of Exile
 ---
 
 CNN to classify images from the game in order to build an internal representation
-of the worlds.  Alogrithm works as follows:
+of the worlds.  algorithm works as follows:
 1. Grab still images from game and passes it to CNN
 2.CNN predicts what is occurring in still image
 3. These prediction pass to an internal map of the worlds. 

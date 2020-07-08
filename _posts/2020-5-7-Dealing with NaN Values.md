@@ -14,7 +14,7 @@ Command to set true of NaN values exists, then count the sum.
  Column_ListOfunderthirtyInformatiion=[]
 ```
 
- Grab all columns that has more than 70 precent information
+ Grab all columns that has more than 70 percent information
 	
 ```
 for index, value in colCount.iteritems():

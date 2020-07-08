@@ -59,7 +59,7 @@ The next steps are
 ```
 from sklearn.linear_model import LinearRegression
 ```
-2. instanteous the model
+2. instantaneous the model
 ```
 model = LinearRegression()
 ```

@@ -11,9 +11,9 @@ title: Linear Regression
    * features we want. 
    * F(x) is the target.
 ```
-There are 5 steps to do a linear regression on Python with SCikit-learn.
- 1. import the approprite estimastor class from scikit-learn.
- 2. Instanteous a model. In this case we will do linear regression. 
+There are 5 steps to do a linear regression on Python with Scikit-learn.
+ 1. import the appropriate estimator class from scikit-learn.
+ 2. instantaneous a model. In this case we will do linear regression. 
     * model = LinearRegression()
  3. create the feature, and target variable for linear regression.
  4. For this example, we will use a dataset from 

@@ -7,10 +7,10 @@ image: /img/ds.PNG.jpeg
 ![image](/img/ds.PNG) 
 Why did Tax Revenue stop rising? From a historic sense, World War I happened in 1917-1919. 
 Then the great depression happened in 1928-1940. 
-However, tax revenue hardly rose above 1940 level again. Despite being in World War II, vietnam war, korean war, gulf war, and cold war. Additionally, observe how this graph starts at 1913. It start at 1913 because U.S constitution Amendement 16 passed allowing congress to imposing income taxes.
+However, tax revenue hardly rose above 1940 level again. Despite being in World War II, vietnam war, korean war, gulf war, and cold war. Additionally, observe how this graph starts at 1913. It start at 1913 because U.S constitution Amendment 16 passed allowing congress to imposing income taxes.
 
 ![image](/img/1908-2020.PNG)  
-So let observe 1908-2020 tax progression graph. This graph shows the mean between the lowest bracket and the highest brackets thoughtout the 112 years. The number of tax brackets either increase or decrease depending on who was president, policy changes etc. Let tell a story from 1908-1944. 
+So let observe 1908-2020 tax progression graph. This graph shows the mean between the lowest bracket and the highest brackets throughout the 112 years. The number of tax brackets either increase or decrease depending on who was president, policy changes etc. Let tell a story from 1908-1944. 
 
 ![image](/img/1948-2020.PNG) 
 In 1964, John F Kennedy reduce tax brackets from 91% to 77% for those making over 200k while also lowering the lowest brackets which is 14% making between $500-$1000. The making over slowly goes down to making over 100k while being placed at 77% brackets. This lasted until 1981 where the price was 108,300 at 77% However, at the lowest 14% bracket you were tax 2200-2700.
