@@ -2,28 +2,53 @@
 layout: post
 title: Linear Regression
 ---
-    
-  A little about Linear Regression. 
-```  
-  Let f(x) = b_0+b_1x_1 + ... + b_nX_n 
-   * such that B_0, b_n are the coefficient and X_1 is what the features are. 
-   * B_0 is when all the feature are zero after whatever 
-   * features we want. 
-   * F(x) is the target.
-```
+
+Linear Regression
+
+* f</sub>(x)</sub> = b<sub>0</sub> + b<sub>1</sub>x<sub>1</sub> + ... + b<sub>n</sub>x<sub>n</sub>
+* such that b<sub>0</sub>, ..., b<sub>n</sub> are coefficients, and X<sub>1</sub>, ..., X<sub>n</sub> are features.
+
+Features also mean independent variable, explanatory variable, regressor, covariate. Coefficients are the values that multiply the predictor values. b<sub>0</sub> means the Y-intercept coefficient. The coefficients influence the features by increasing or decreasing the corresponding 1, ... n features. <p>
+
+If there exist many samples that have many features, we can predict a group of sample targets using a linear regression in Python.
+We can put the n_sample and n_features into a matrix shape, then we can predict the features of the y_sample using the Linear Regression model.
+
 There are 5 steps to do a linear regression on Python with Scikit-learn.
- 1. import the appropriate estimator class from scikit-learn.
- 2. instantaneous a model. In this case we will do linear regression. 
-    * model = LinearRegression()
- 3. create the feature, and target variable for linear regression.
- 4. For this example, we will use a dataset from 
+1. import the appropriate estimator class which are Multiple Regression, Ridge Regression, Logistic Regression.
+  * Multiply Regression models a value based on multiple variables.
+  * Ridge Regression are techniques to reduce model complexity.
+  * Logistic Regression is used for category data.
+2. instantaneous a model.
+  * LinearRegressionModel = LinearRegression()
+  * LogisticRegressionModel = LogisticRegression()
+  * RidgeRegressionModel = Ridge()
+  * selector = SelectKBest()
+3. create the feature, and target variable for linear regression.
+ 
+    the direct way is to put the columns of interested in a matrix then assign them to a x_train variable, while we have
+the variable we are predicting to be assigned to y_train variable. There is also some unique ways to create features such as one-hot encoding, features engineering, high cardinality, and selectKBest
+  * one-hot encoding is transforming categories into bits.
+  * feature engineering is creating features by combine multiple features.
+  * high cardinality refers to numbers that are uncommon or uniques, low cardinality refers to low uniques.
+  * let the program choose the best correlate features by using selector = SelectKBest()
+4. make the pred.
 ```
-csv('../data/apartments/renthop-nyc.csv'). 
+ model.fit(X_train, y_train)
+ y_pred = model.predict(x_test)
 ```
-A file that has rent of apartment with bedrooms, bathroom, long & latitude with other etc hardwoord, floor, patio. 
-Let do number of bathroom as feature and rent price as target.
+if we use selector
 ```
-X_test.predict(X_test)
-y_pred = model.predict(X_test)
-y_pred is the guesstimation of price for whatever price you enter in.
+ X_train_selected = selector.fit_transform(X_train, y_train)
+ X_test_selected = selector.transform(X_test)
+
+ model = LinearRegression()
+ model.fit(X_train_selected, y_train)
+ y_pred = model.predict(X_test_selected)
+```
+
+finally print the score
+```
+mean_absolute_error(y_test, y_pred)
+```
+
 ```
